@@ -1,4 +1,4 @@
-package com.cg.airways;
+/*package com.cg.airways;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -87,4 +87,4 @@ public class CustomSuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
 		return redirectStrategy;
 	}
 
-}
+}*/
