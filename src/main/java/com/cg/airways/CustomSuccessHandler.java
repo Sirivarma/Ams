@@ -39,7 +39,7 @@ public class CustomSuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
 	 * This method extracts the roles of currently logged-in user and returns
 	 * appropriate URL according to his/her role.
 	 */
-	protected String determineTargetUrl(Authentication authentication) {
+	/*protected String determineTargetUrl(Authentication authentication) {
 		String url = "";
 		System.err.println("in dtu");
 
