@@ -173,6 +173,7 @@
   
   
   <build>
+	  <finalName>Ams</finalName>
 		<plugins>
 			<!-- Package as an executable jar/war -->
 			<plugin>
