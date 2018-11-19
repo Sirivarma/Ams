@@ -39,7 +39,7 @@ public class AirwaysController{
 	@Autowired
 	CustomerService customerService;
 	//private final Logger log = LoggerFactory.getLogger(this.getClass());
-/*@RequestMapping("/admin")
+@RequestMapping("/admin")
 public String getAdmin(Model model,String error,String logout){
 	//System.out.println("loginPage");
 	if (error != null)
@@ -55,7 +55,7 @@ public String getAdmin(Model model,String error,String logout){
 public String getLogin(Model model) {
 	System.err.println("admin");
 	return "adminLogin";
-}*/
+}
 
 	@RequestMapping("/")
 	public String getHome( Model model) throws Exception  {
@@ -78,7 +78,7 @@ public String getLogin(Model model) {
 		}
 		
 	
-/*public static TourPlanner tp=new TourPlanner();
+public static TourPlanner tp=new TourPlanner();
 	@SuppressWarnings("null")
 	@RequestMapping("/search")
 	public String search(Model model, @Valid@ModelAttribute("tour") TourPlanner tourPlanner,BindingResult result) throws Exception{
@@ -189,5 +189,5 @@ public String getLogin(Model model) {
 	 @RequestMapping("/error1")
 	 public String error() {
 		 return "error2";
-	 }*/
+	 }
 }
